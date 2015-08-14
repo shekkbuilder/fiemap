@@ -1,6 +1,6 @@
-# fiemap
-fiemap ioctl() example by Colin Ian King
---
+\# fiemap
+fiemap ioctl() example by Colin Ian King (2010). gpl2 license.
+
 Small example:
 
 root@trout:~/nlitend/dev/fiemapxz# ls -li
@@ -11,7 +11,7 @@ total 32
 
 root@trout:~/nlitend/dev/fiemapxz# ./fiemap Makefile
 File Makefile has 1 extents:
-#    Logical          Physical         Length           Flags
+\#    Logical          Physical         Length           Flags
 0:    0000000000000000 0000000d8c1cd000 0000000000001000 0001
 
 convert the hex and divide by pagesize:
